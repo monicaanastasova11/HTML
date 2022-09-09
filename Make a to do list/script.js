@@ -1,17 +1,21 @@
 var addButton = document.getElementById("add-button");
-console.log(addButton);
+
 addButton.addEventListener("click", addToDoItem);
 
 function addToDoItem() {
     //alert("Add button clicked!");
     var itemText = toDoEntryBox.value;
+    
     newToDoItem(itemText, false);
+    toDoEntryBox.value='';
+   
   }
 
 var clearButton = document.getElementById("clear-completed-button");
 clearButton.addEventListener("click",clearCompletedToDoItems);
 function clearCompletedToDoItems(){
     alert("Clear button clicked!");
+  
 }
 
 var emptyButton = document.getElementById("empty-button");
