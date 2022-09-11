@@ -9,10 +9,11 @@ function addToDoItem() {
     newToDoItem(itemText, false);
     toDoEntryBox.value='';
    
-  }
+}
 
 var clearButton = document.getElementById("clear-completed-button");
 clearButton.addEventListener("click",clearCompletedToDoItems);
+
 function clearCompletedToDoItems(){
     alert("Clear button clicked!");
   
@@ -31,6 +32,7 @@ function emptyList(){
 
 var saveButton = document.getElementById("save-button");
 saveButton.addEventListener("click", saveList);
+
 function saveList(){
    // alert("Save button clicked!");
    var toDos = [];
