@@ -1,0 +1,54 @@
+body {
+    background-color: lightskyblue;
+    color: purple;
+    font-family: "Helvetica", sans-serif;
+
+}
+h1 {
+    color: azure;
+    font-family: 'Times New Roman', serif;
+}
+nav ul{
+    background-color: tomato;
+    border-style: solid;
+    border-color: mediumvioletred;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: papayawhip;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: indigo;
+}
+img{
+    border-radius: 20px;
+}
+
+table th td {
+    border:1px solid honeydew;
+    border-collapse: collapse;
+}
+tr{
+    background-color: paleturquoise;
+}
+th td{
+    vertical-align: top;
+    padding: 5px;
+    text-align: left;
+}
+th{
+    color: purple;
+}
+td{
+    color: purple;
+}
