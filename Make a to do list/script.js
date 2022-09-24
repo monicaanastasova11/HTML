@@ -5,7 +5,7 @@ addButton.addEventListener("click", addToDoItem);
 function addToDoItem() {
     //alert("Add button clicked!");
     var itemText = toDoEntryBox.value;
-    
+   
     newToDoItem(itemText, false);
     toDoEntryBox.value='';
    
