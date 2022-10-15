@@ -1,0 +1,141 @@
+body{
+    background-color: #ccf5f5;
+}
+#gameholder{
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title{
+    width: 600px;
+    height:150px;
+    background-image: url('images/penguin_title.png');
+}
+.pinguine1{
+    width:200px;
+    height:200px;
+    float:left;
+    background-image:url('images/mound_1.png');
+
+}
+.pinguine2{
+    width:200px;
+    height:200px;
+    float:left;
+    background-image:url('images/mound_2.png');
+
+}
+.pinguine3{
+    width:200px;
+    height:200px;
+    float:left;
+    background-image:url('images/mound_3.png');
+
+}
+.pinguine4{
+    width:200px;
+    height:200px;
+    float:left;
+    background-image:url('images/mound_4.png');
+}
+.pinguine5{
+    width:200px;
+    height:200px;
+    float:left;
+    background-image:url('images/mound_5.png');
+}
+.pinguine6{
+    width:200px;
+    height:200px;
+    float:left;
+    background-image:url('images/mound_6.png');
+
+}
+.pinguine7{
+    width:200px;
+    height:200px;
+    float:left;
+    background-image:url('images/mound_7.png');
+
+}
+.pinguine8{
+    width:200px;
+    height:200px;
+    float:left;
+    background-image:url('images/mound_8.png');
+}
+
+.yeti{
+width:200px;
+height: 200px;
+float:left;
+background-image: url('images/mound_9.png');
+}
+.pinguine1:hover{
+    background-image: url('images/mound_1_hover.png');
+    cursor: pointer;
+}
+.pinguine2:hover{
+    background-image: url('images/mound_2_hover.png');
+    cursor: pointer;
+}
+.pinguine3:hover{
+    background-image: url('images/mound_3_hover.png');
+    cursor: pointer;
+}
+.pinguine4:hover{
+    background-image: url('images/mound_4_hover.png');
+    cursor: pointer;
+}
+
+.pinguine5:hover{
+    background-image: url('images/mound_5_hover.png');
+    cursor: pointer;
+}
+.pinguine6:hover{
+    background-image: url('images/mound_6_hover.png');
+    cursor: pointer;
+}
+.pinguine7:hover{
+    background-image: url('images/mound_7_hover.png');
+    cursor: pointer;
+}
+.pinguine8:hover{
+    background-image: url('images/mound_8_hover.png');
+    cursor: pointer;
+}
+.yeti:hover{
+    background-image: url('images/mound_9_hover.png');
+    cursor: pointer;
+}
+.pinguine1:active{
+background-image: url('images/penguin_1.png');
+}
+.pinguine2:active{
+    background-image: url('images/penguin_2.png');
+}
+.pinguine3:active{
+    background-image: url('images/penguin_3.png');
+}
+.pinguine4:active{
+    background-image: url('images/penguin_4.png');
+}
+.pinguine5:active{
+    background-image: url('images/penguin_5.png');
+}
+.pinguine6:active{
+    background-image: url('images/penguin_6.png');
+}
+.pinguine7:active{
+    background-image: url('images/penguin_7.png');
+}
+.pinguine8:active{
+    background-image: url('images/penguin_8.png');
+}
+.yeti:active{
+    background-image: url('images/yeti.png');
+}
+
+
+
+
