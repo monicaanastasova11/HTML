@@ -23,31 +23,33 @@
     }
   </style>
 </head>
-<div id="content">
-    
-</div>
+
 <body onload="create(['Section 1', 'Section 2', 'Section 3', 'Section 4']);">
+  <div id="content">
+    
+  </div>
 <script>
   function create(sentences) {
-    var content = document.getElementById('content');
+    var contentEl=document.getElementById('content');
 
-        for (var sentence of sentences) {
-            var div = document.createElement('div');
-            var p = document.createElement('p');
-            p.style.display = 'none';
 
-            p.textContent = sentence;
-            div.appendChild(p);
+   sentences.forEach(x => {
+    var divEl=document.createElement('div');
 
-            div.addEventListener('click',displayParagraph);
+    var parEl=document.createElement('p');
+    parEl.textContent=x;
+    parEl.style.display='none';
 
-            content.appendChild(div);
-        }
+    divEl.appendChild(parEl);
+    divEl.addEventListener('click', function(){
+     this.firstChild.style.display ='block';
+    })
 
-        function displayParagraph(event) {
-           event.target.children[0].style.display = 'block'
-   
-        }
+
+    contentEl.appendChild(divEl);
+
+
+   });
     
 }
 </script>
